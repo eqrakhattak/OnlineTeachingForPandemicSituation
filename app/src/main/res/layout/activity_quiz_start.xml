@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSplashText"
+    tools:context=".QuizStartActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/questionsTxt"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-light"
+            android:padding="10dp"
+            android:text="What is this question?"
+            android:textAlignment="center"
+            android:textColor="#393737"
+            android:textSize="28sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:paddingTop="5dp"
+
+            >
+
+            <Button
+                android:id="@+id/buton1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:text="OPTION 1"
+                android:textAlignment="center"
+                android:textSize="17sp" />
+
+            <Button
+                android:id="@+id/buton2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="12dp"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:text="OPTION 2"
+                android:textAlignment="center"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buton3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:text="OPTION 3"
+                android:textAlignment="center"
+                android:textSize="17sp" />
+
+            <Button
+                android:id="@+id/buton4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="2dp"
+                android:layout_marginEnd="17dp"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:text="OPTION 4"
+                android:textAlignment="center"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/timerTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="00:00"
+                android:textAlignment="center"
+                android:textSize="28sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

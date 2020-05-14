@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "55519968898",
+    "firebase_url": "https://onlineteaching-f90e2.firebaseio.com",
+    "project_id": "onlineteaching-f90e2",
+    "storage_bucket": "onlineteaching-f90e2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:55519968898:android:576202fd8f86ebe3947e9b",
+        "android_client_info": {
+          "package_name": "com.sami.onlineteaching"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "55519968898-ulienb97jnu3vjjmocbomfhqej4g5un1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeEbZTOHz6eNpL2dg28_KAaJHuBA6AIyA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "55519968898-ulienb97jnu3vjjmocbomfhqej4g5un1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
